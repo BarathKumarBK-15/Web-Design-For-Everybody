@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Final Project</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("Hi There");
+	</script>
+	<header>
+		<h1 id="me">Barath Ganesh Kumar</h1>
+		<nav>
+			<a href="#favouritefood">One</a>
+			<a href="#achievements">Two</a>
+			<a href="#moreaboutme">Three</a>
+			<a href="https://www.google.com/" target="_blank">Google</a>
+		</nav>
+	</header>
+	<script type="text/javascript">
+		document.getElementById("me").innerHTML="Barath Kumar G";
+	</script>
+	<section id="favouritefood" class="half">
+		<h2>Favorite Foods</h2>
+		<ul>
+			<li>Waffles</li>
+			<li>Chocolate Cakes</li>
+			<li>Pizzas</li>
+			<li>Cheese Burgers</li>
+		</ul>
+	</section>
+	<section id="achievements" class="half">
+		<h2>Achievements</h2>
+		<label for="course">Progress in this course(100%)</label>
+		<meter max="100" min="0" value="100" id="course">100%</meter>
+		<br>
+		<label for="special">Progress in the Specialization capstone(20%)</label>
+		<meter max="100" min="0" value="20" id="special">20%</meter>
+		<br>
+		<label for="goal">Progress in life goals(15%)</label>
+		<meter min="0" max="100" value="15" id="goal">15%</meter>
+	</section>
+	<section id="moreaboutme" class="full">
+		<h2>More About Me</h2>
+		<details>
+			<summary>My Childhood</summary>
+			I grew up at Coimbatore in India and those days are the best part of my life
+		</details>
+	</section>
+	<br>
+	<br>
+	<footer>
+		<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E_logo" title="WD4E"/>
+		This page was created by Barath Kumar &amp Colleen van Lent. To learn more about web design, visit <a href="http://intro-webdesign.com/">Intro to Web Design</a>
+	</footer>
+</body>
+</html>
